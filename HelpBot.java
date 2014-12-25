@@ -7,8 +7,6 @@ class HelpBot implements CommandInt {
 	public void execute() {
 		System.out.println("Commands available to you are: 'New file' and 'Help'");
 		System.out.println("Enter a command");
-		Router router = new Router(getInput.nextLine());
-		router.run();
 	}
 
 
